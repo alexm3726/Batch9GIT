@@ -20,13 +20,16 @@ public class NestedForLoopFor2DArray {
 			System.out.println();
 		}
 		System.out.println("---------------------------------------------------");
-		
+		int sum=0;
 		for(int[] array:numbers) {
 			for(int a:array) {
 				System.out.print(a+" ");
+				sum+=a;
 			}
 			System.out.println();
+			
 		}
+		System.out.println(sum);
 
 	}
 
