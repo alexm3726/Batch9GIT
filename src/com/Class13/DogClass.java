@@ -14,7 +14,10 @@ public class DogClass {
 		System.out.println("ZZZZZZZZZZZZzzzzz...");
 	}
 	public void eat() {
-		System.out.println("Omnomnomn");
+		
+		for (int i=0; i<5; i++) {
+			System.out.println("Omnomnomn");
+		}
 	}
 	public void look() {
 		System.out.println("Hi I am a dog my color is " +color);
