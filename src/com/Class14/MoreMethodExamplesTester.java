@@ -1,5 +1,7 @@
 package com.Class14;
 
+import java.util.Scanner;
+
 public class MoreMethodExamplesTester {
 	
 	public static void main(String[] args) {
